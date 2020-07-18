@@ -1,0 +1,13 @@
+name: CI
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: スクレイピング
+        run: |
+          git clone https://github.com/yuzuru-program/scraping-node-yahoo.git ci
+          cd ci
+          npm i
+          node index
