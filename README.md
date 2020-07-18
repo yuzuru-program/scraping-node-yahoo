@@ -1,2 +1,1 @@
-# scraping-node-yahoo
-ヤフートップをnodejsでスクレイピング
+## ヤフートップをnodejsでスクレイピング
